@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar e Instalar no Tablet",
+      "type": "shell",
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        ".\\gradlew.bat :app:installDebug && adb forward tcp:9090 tcp:9090 && adb shell am start -n com.example.segundomonitor/.MainActivity"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

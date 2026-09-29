@@ -1,0 +1,13 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'com.example.segundomonitor'
+    compileSdkVersion 33 // ou a versão que você estiver utilizando
+
+    defaultConfig {
+        applicationId "com.example.segundomonitor"
+        minSdkVersion 19
+        targetSdkVersion 33
+        // ...
+    }
+}

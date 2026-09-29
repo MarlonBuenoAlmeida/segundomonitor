@@ -1,0 +1,49 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.segundomonitor" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->D:\projetos\segundomonitor\app\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="33" />
+7-->D:\projetos\segundomonitor\app\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->D:\projetos\segundomonitor\app\src\main\AndroidManifest.xml:4:5-67
+9-->D:\projetos\segundomonitor\app\src\main\AndroidManifest.xml:4:22-64
+10
+11    <application
+11-->D:\projetos\segundomonitor\app\src\main\AndroidManifest.xml:6:5-23:19
+12        android:allowBackup="true"
+12-->D:\projetos\segundomonitor\app\src\main\AndroidManifest.xml:7:9-35
+13        android:debuggable="true"
+14        android:icon="@android:drawable/sym_def_app_icon"
+14-->D:\projetos\segundomonitor\app\src\main\AndroidManifest.xml:8:9-58
+15        android:label="Segundo Monitor"
+15-->D:\projetos\segundomonitor\app\src\main\AndroidManifest.xml:9:9-40
+16        android:supportsRtl="true"
+16-->D:\projetos\segundomonitor\app\src\main\AndroidManifest.xml:10:9-35
+17        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+17-->D:\projetos\segundomonitor\app\src\main\AndroidManifest.xml:11:9-67
+18        <activity
+18-->D:\projetos\segundomonitor\app\src\main\AndroidManifest.xml:13:9-21:20
+19            android:name="com.example.segundomonitor.MainActivity"
+19-->D:\projetos\segundomonitor\app\src\main\AndroidManifest.xml:14:13-41
+20            android:configChanges="orientation|keyboardHidden|screenSize"
+20-->D:\projetos\segundomonitor\app\src\main\AndroidManifest.xml:16:13-74
+21            android:exported="true" >
+21-->D:\projetos\segundomonitor\app\src\main\AndroidManifest.xml:15:13-36
+22            <intent-filter>
+22-->D:\projetos\segundomonitor\app\src\main\AndroidManifest.xml:17:13-20:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->D:\projetos\segundomonitor\app\src\main\AndroidManifest.xml:18:17-69
+23-->D:\projetos\segundomonitor\app\src\main\AndroidManifest.xml:18:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->D:\projetos\segundomonitor\app\src\main\AndroidManifest.xml:19:17-77
+25-->D:\projetos\segundomonitor\app\src\main\AndroidManifest.xml:19:27-74
+26            </intent-filter>
+27        </activity>
+28    </application>
+29
+30</manifest>
